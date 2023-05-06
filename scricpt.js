@@ -29,4 +29,8 @@ e.preventDefault();
 getWeather(city.value)
 });
 getWeather("Udaipur");
+var btn = document.getElementById('btn-link');
+btn.addEventListener("click", function (){
+ window.location.href = "https://creativestudio.infinityfreeapp.com/";
+})
 
